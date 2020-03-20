@@ -1,0 +1,16 @@
+<template>
+  <div class="container">
+    <div class="row justify-content-center text-center py-5">
+      <div class="col-12 col-md-8 col-lg-6">
+        <h2>Long headline on two lines to turn your visitors into users and achieve more</h2><a class="large action-link" href=""><span>Action link</span></a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'center-13'
+}
+</script>
+

@@ -1,0 +1,44 @@
+<template>
+  <div class="container">
+    <div class="swiper">
+      <div class="swiper-container" id="slider-gallery-11">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="images-ratio ratio-16-9" style="background-image: url(@/assets/pictures/image-1440x600.png)"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="images-ratio ratio-16-9" style="background-image: url(@/assets/pictures/image-1440x600.png)"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="images-ratio ratio-16-9" style="background-image: url(@/assets/pictures/image-1440x600.png)"></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination" id="slider-gallery-11-pagination"></div><a class="carousel-control-prev" id="slider-gallery-11-prev" href="">
+        <div class="carousel-control-prev-icon"></div>
+      </a><a class="carousel-control-next" id="slider-gallery-11-next" href="">
+        <div class="carousel-control-next-icon"></div>
+      </a>
+    </div>
+  </div>
+</template>
+
+<script>
+/*
+var mySwiper11 = new Swiper('#slider-gallery-11', {
+    speed: 400,
+    navigation: {
+      nextEl: '#slider-gallery-11-next',
+      prevEl: '#slider-gallery-11-prev',
+    },
+    pagination: {
+      el: '#slider-gallery-11-pagination',
+      clickable: true
+    },
+    slidesPerView: 'auto'
+  });
+ */ 
+export default {
+  name: 'gallery-11'
+}
+</script>

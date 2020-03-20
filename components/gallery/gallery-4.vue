@@ -1,0 +1,18 @@
+<template>
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-md-4 gallery-item"><img class="w-100" src="@/assets/pictures/image-540x540.png" /></div>
+      <div class="col-md-4 gallery-item"><img class="w-100" src="@/assets/pictures/image-540x540.png" /></div>
+      <div class="col-md-4 gallery-item"><img class="w-100" src="@/assets/pictures/image-540x540.png" /></div>
+      <div class="col-md-4 gallery-item mb-md-0"><img class="w-100" src="@/assets/pictures/image-540x540.png" /></div>
+      <div class="col-md-4 gallery-item mb-md-0"><img class="w-100" src="@/assets/pictures/image-540x540.png" /></div>
+      <div class="col-md-4 gallery-item mb-0"><img class="w-100" src="@/assets/pictures/image-540x540.png" /></div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'gallery-4'
+}
+</script>

@@ -1,0 +1,17 @@
+  <template>
+  <div class="container">
+    <div class="row pt-12 pt-5">
+      <div class="col-12 col-md-5">
+        <h4>Tagline</h4>
+        <h1>Long headline to turn your visitors into users</h1>
+        <p>Separated they live in Bookmarksgrove right at the coast of the famous Semantics, large language ocean and many more stuff and more more more</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'texts-1'
+}
+</script>

@@ -1,0 +1,28 @@
+<template>
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-12 col-md-3 mb-4 mb-md-0"><img class="w-100 mb-3" src="@/assets/pictures/image-410x250.png" />
+        <h4>Long headline on two lines to turn your visitors into users</h4>
+        <div class="small">Caption</div>
+      </div>
+      <div class="col-12 col-md-3 mb-4 mb-md-0"><img class="w-100 mb-3" src="@/assets/pictures/image-410x250.png" />
+        <h4>Long headline on two lines to turn your visitors into users</h4>
+        <div class="small">Caption</div>
+      </div>
+      <div class="col-12 col-md-3 mb-4 mb-md-0"><img class="w-100 mb-3" src="@/assets/pictures/image-410x250.png" />
+        <h4>Long headline on two lines to turn your visitors into users</h4>
+        <div class="small">Caption</div>
+      </div>
+      <div class="col-12 col-md-3"><img class="w-100 mb-3" src="@/assets/pictures/image-410x250.png" />
+        <h4>Long headline on two lines to turn your visitors into users</h4>
+        <div class="small">Caption</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'grids-13'
+}
+</script>

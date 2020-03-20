@@ -1,0 +1,25 @@
+<template>
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-12 col-md-6">
+        <div class="gallery-item mb-md-0">
+          <div class="images-ratio ratio-4-5" style="background-image: url(@/assets/pictures/image-540x620.png)"></div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="gallery-item">
+          <div class="images-ratio ratio-4-2" style="background-image: url(@/assets/pictures/image-540x295.png)"></div>
+        </div>
+        <div class="gallery-item mb-0">
+          <div class="images-ratio ratio-4-2" style="background-image: url(@/assets/pictures/image-540x295.png)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'gallery-7'
+}
+</script>

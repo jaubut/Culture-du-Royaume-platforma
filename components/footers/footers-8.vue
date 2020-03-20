@@ -1,0 +1,63 @@
+<template>
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-12 col-lg-2 mb-4 mb-lg-0"><img src="@/assets/logos/cr-logo-type.svg" width="62" /></div>
+      <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+        <h4 class="text-secondary">Podcast</h4>
+        <div class="small">
+          <div class="mb-1"><a class="text-dark" href=""><span>First page</span></a></div>
+          <div class="mb-1"><a class="text-dark" href=""><span>Second page</span></a></div>
+          <div class="mb-1"><a class="text-dark" href=""><span>Third</span></a></div>
+          <div class="mb-1"><a class="text-dark" href=""><span>Fourth</span></a></div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+        <h4 class="text-secondary">Vidéos</h4>
+        <div class="small">
+          <div class="mb-1"><a class="text-dark" href=""><span>Fifth page</span></a></div>
+          <div class="mb-1"><a class="text-dark" href=""><span>Sixth page</span></a></div>
+          <div class="mb-1"><a class="text-dark" href=""><span>Eighth</span></a></div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+        <h4 class="text-secondary">Articles</h4>
+        <div class="small">
+          <div class="mb-1"><a class="text-dark" href=""><span>First page</span></a></div>
+          <div class="mb-1"><a class="text-dark" href=""><span>Second page</span></a></div>
+          <div class="mb-1"><a class="text-dark" href=""><span>Third</span></a></div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="border-top pt-4 d-lg-none"></div>
+        <h4 class="text-secondary">Abonne toi</h4>
+        <div class="form-group input-group input-group-lg"><input class="form-control form-control-lg" type="text" placeholder="Entrer votre courriel" />
+          <div class="input-group-control"><a class="transparent-invert-link" href=""><img src="@/assets/glyphs/plane.svg" width="24" /></a></div>
+        </div>
+        <p class="small text-muted mb-0">Rejoignez notre newsletter pour rester à jour sur les ressources et les évènements.</p>
+      </div>
+    </div>
+    <div class="d-lg-flex align-item-ceneter justify-content-between border-top py-3 py-lg-2 mt-lg-5">
+      <div class="small mb-2 mb-lg-0"><span class="text-muted">&copy; 2020 Culture du Royaume. Tout droit réservé.</span></div>
+      
+      <div class="d-none d-lg-block ml-auto">
+        <a class="transparent-invert-link" href=""><i class="fab fa-facebook-square"></i></a>
+      </div>
+      <div class="d-lg-none">
+        <a class="transparent-invert-link" href=""><i class="fab fa-facebook-square"></i></a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'footers-8'
+}
+</script>
+
+<style scoped>
+
+.fab {
+  font-size: 24px;
+}
+</style>
