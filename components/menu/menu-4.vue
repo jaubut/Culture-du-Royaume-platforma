@@ -7,8 +7,8 @@
       </div>
       <div class="collapse navbar-collapse flex-grow-0 weight-500">
         <div class="navbar-nav">
-          <div class="nav-item"><a class="nav-link text-white pl-0" href="">À propos</a></div>
-          <div class="nav-item"><a class="nav-link text-white" href="">Services</a></div>
+          <div class="nav-item"><a class="nav-link text-white pl-0" href="#apropos">À propos</a></div>
+          <div class="nav-item"><a class="nav-link text-white" href="#ressource">Services</a></div>
           <!--
           <div class="nav-item"><a class="nav-link text-dark" href="">Third</a></div>
           <div class="nav-item"><a class="nav-link text-dark" href="">Fourth</a></div>
