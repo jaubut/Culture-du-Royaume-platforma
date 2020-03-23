@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="row justify-content-between align-items-center py-5">
-      <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0"><img class="w-100" src="@/assets/pictures/window-555x380.png" /></div>
-      <div class="col-12 col-md-5"><img class="mb-3" src="@/assets/glyphs/rectangle-1.svg" width="40" />
-        <h3>Medium length headline</h3>
-        <p>Change the color to match your brand or vision, add your logo, choose the perfect thumbnail, remove the playbar, add speed controls, and more. Increase engagement with CTAs and custom end screens, or keep your video private and password-protected.</p>
+      <div class="col-12 col-md-6 pl-md-0 mb-4 mb-md-0"><img class="w-100" :src="image" /></div>
+      <div class="col-12 col-md-5"><img class="mb-3" :src="logo" width="40" />
+        <h3>{{ headline }}</h3>
+        <p>{{ text }}</p>
       </div>
     </div>
   </div>
@@ -12,6 +12,7 @@
 
 <script>
 export default {
-  name: 'right-16'
+  name: 'right-16',
+  props: ['image', 'logo', 'headline', 'text']
 }
 </script>

@@ -3,12 +3,12 @@
     <div class="navbar navbar-expand-lg justify-content-between">
       <div class="d-lg-none"><a class="navbar-toggler mr-1" href="" data-id="menu-4-sidebar-toggle"><img src="@/assets/glyphs/burger.svg" /></a></div>
       <div>
-        <img src="@/assets/logos/cr-logo-type.svg" width="32" alt="">
+        <img src="@/assets/logos/cr-logo-type-white.svg" width="32" alt="">
       </div>
       <div class="collapse navbar-collapse flex-grow-0 weight-500">
         <div class="navbar-nav">
-          <div class="nav-item"><a class="nav-link text-dark pl-0" href="">À propos</a></div>
-          <div class="nav-item"><a class="nav-link text-dark" href="">Services</a></div>
+          <div class="nav-item"><a class="nav-link text-white pl-0" href="">À propos</a></div>
+          <div class="nav-item"><a class="nav-link text-white" href="">Services</a></div>
           <!--
           <div class="nav-item"><a class="nav-link text-dark" href="">Third</a></div>
           <div class="nav-item"><a class="nav-link text-dark" href="">Fourth</a></div>
