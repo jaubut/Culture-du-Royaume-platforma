@@ -3,36 +3,49 @@
     <div class="row py-4">
       <div class="col-12 col-lg-2 mb-4 mb-lg-0"><img src="@/assets/logos/cr-logo-type.svg" width="62" /></div>
       <div class="col-6 col-lg-2 mb-4 mb-lg-0">
-        <h4 class="text-secondary">Podcast</h4>
+        <a target="_blank" href="https://soundcloud.com/pensee-du-jour">
+          <h4 class="text-secondary">Podcast</h4>
+        </a>
+        <!--
         <div class="small">
           <div class="mb-1"><a class="text-dark" href=""><span>First page</span></a></div>
           <div class="mb-1"><a class="text-dark" href=""><span>Second page</span></a></div>
           <div class="mb-1"><a class="text-dark" href=""><span>Third</span></a></div>
           <div class="mb-1"><a class="text-dark" href=""><span>Fourth</span></a></div>
         </div>
+        -->
       </div>
       <div class="col-6 col-lg-2 mb-4 mb-lg-0">
-        <h4 class="text-secondary">Vidéos</h4>
+        <a target="_blank" href="https://www.youtube.com/channel/UCdiJGksQJ7e_cacatlSmGsw">
+          <h4 class="text-secondary">Vidéos</h4>
+        </a>
+        <!--
         <div class="small">
           <div class="mb-1"><a class="text-dark" href=""><span>Fifth page</span></a></div>
           <div class="mb-1"><a class="text-dark" href=""><span>Sixth page</span></a></div>
           <div class="mb-1"><a class="text-dark" href=""><span>Eighth</span></a></div>
         </div>
+        -->
       </div>
       <div class="col-6 col-lg-2 mb-4 mb-lg-0">
         <h4 class="text-secondary">Articles</h4>
+        <!--
         <div class="small">
           <div class="mb-1"><a class="text-dark" href=""><span>First page</span></a></div>
           <div class="mb-1"><a class="text-dark" href=""><span>Second page</span></a></div>
           <div class="mb-1"><a class="text-dark" href=""><span>Third</span></a></div>
         </div>
+        -->
       </div>
       <div class="col-12 col-lg-4">
         <div class="border-top pt-4 d-lg-none"></div>
         <h4 class="text-secondary">Abonne toi</h4>
-        <div class="form-group input-group input-group-lg"><input class="form-control form-control-lg" type="text" placeholder="Entrer votre courriel" />
-          <div class="input-group-control"><a class="transparent-invert-link" href=""><img src="@/assets/glyphs/plane.svg" width="24" /></a></div>
-        </div>
+        <form class="form-group input-group input-group-lg" action="https://cultureduroyaume.us19.list-manage.com/subscribe/post" method="post">
+          <input type="hidden" name="u" value="a6ac96b8a5bf95d1d95cd9ec4">
+          <input type="hidden" name="id" value="17ecc0138b">
+          <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" class="form-control form-control-lg" placeholder="Entrer votre courriel" required/>
+          <div class="input-group-control"><button type="submit" name="submit" class="button-submit"><img src="@/assets/glyphs/plane.svg" width="24" /></button></div>
+        </form>
         <p class="small text-muted mb-0">Rejoignez notre newsletter pour rester à jour sur les ressources et les évènements.</p>
       </div>
     </div>
@@ -56,8 +69,11 @@ export default {
 </script>
 
 <style scoped>
-
 .fab {
   font-size: 24px;
+}
+.button-submit {
+  background: none;
+  border: 0;
 }
 </style>
