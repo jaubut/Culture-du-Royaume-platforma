@@ -45,7 +45,7 @@ export default {
     },
     meta: {
       /* meta options */
-
+      title: 'Culture du Royaume - Par Réjean Cloutier'
     }
   },
   css: [
