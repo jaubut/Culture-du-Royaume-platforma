@@ -29,7 +29,7 @@
     <center1
       tagline="Don"
       headline="Supporter notre projet"
-      link1=""
+      link1="https://www.paypal.com/paypalme/rejtherhotmailcom"
       linktitle="Me supporter via PayPal"
     ></center1>
     <footers8></footers8>
