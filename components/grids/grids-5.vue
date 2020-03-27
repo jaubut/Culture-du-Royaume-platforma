@@ -7,7 +7,7 @@
       </div>
       <div class="col-12 col-md-3 mb-4 mb-md-0">
         <h4 class="text-secondary">Vidéos</h4>
-        <div class="small">Un reccueil de tous mes enseignements filmés sur <a target="_blank" href="https://www.youtube.com/channel/UCdiJGksQJ7e_cacatlSmGsw"><span>ma chaîne YouTube</span></a>.</div>
+        <div class="small">Un reccueil de tous mes enseignements filmés sur <a target="_blank" href="https://www.youtube.com/channel/UCdiJGksQJ7e_cacatlSmGsw"><span> ma chaîne YouTube</span></a>.</div>
       </div>
       <div class="col-12 col-md-3 mb-4 mb-md-0">
         <h4 class="text-secondary">Cours en ligne</h4>
