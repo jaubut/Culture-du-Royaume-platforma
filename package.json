@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-platforma-starter",
+  "name": "culture-du-royaume",
   "version": "1.0.0",
-  "description": "My good Nuxt.js project",
-  "author": "Jeremie Imac",
+  "description": "Aider les gens à découvrir qui ils sont réellement en Dieu pour qu’ils puissent réaliser leur plein potentiel, relever des défis extraordinaires et changer leur génération.",
+  "author": "Jeremie Aubut",
   "private": true,
   "scripts": {
     "dev": "nuxt",

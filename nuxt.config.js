@@ -38,6 +38,16 @@ export default {
   /*
   ** Global CSS
   */
+  pwa: {
+    manifest: {
+      name: 'Culture du Royaume',
+      lang: 'fr'
+    },
+    meta: {
+      /* meta options */
+
+    }
+  },
   css: [
     '@/assets/css/light.css'
   ],
