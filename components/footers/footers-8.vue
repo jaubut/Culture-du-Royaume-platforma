@@ -53,10 +53,10 @@
       <div class="small mb-2 mb-lg-0"><span class="text-muted">&copy; 2020 Culture du Royaume. Tout droit réservé.</span></div>
       
       <div class="d-none d-lg-block ml-auto">
-        <a class="transparent-invert-link" href=""><i class="fab fa-facebook-square"></i></a>
+        <a class="transparent-invert-link" target="_blank" href="https://www.facebook.com/cultureduroyaume"><i class="fab fa-facebook-square"></i></a>
       </div>
       <div class="d-lg-none">
-        <a class="transparent-invert-link" href=""><i class="fab fa-facebook-square"></i></a>
+        <a class="transparent-invert-link" target="_blank" href="https://www.facebook.com/cultureduroyaume"><i class="fab fa-facebook-square"></i></a>
       </div>
     </div>
   </div>
