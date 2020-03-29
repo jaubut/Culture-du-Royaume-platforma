@@ -55,7 +55,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/global.js', '@/plugins/vue-instagram.js', '@nuxtjs/sitemap'
+    '@/plugins/global.js', '@/plugins/vue-instagram.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -72,7 +72,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Axios module configuration
