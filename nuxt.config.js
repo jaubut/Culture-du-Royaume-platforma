@@ -79,6 +79,7 @@ export default {
     hostname: 'https://cultureduroyaume.com',
     gzip: true,
     exclude: [
+      '/center'
     ],
     routes: [
     ]
