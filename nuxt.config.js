@@ -55,7 +55,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/global.js', '@/plugins/vue-instagram.js'
+    '@/plugins/global.js', '@/plugins/vue-instagram.js', '@nuxtjs/sitemap'
   ],
   /*
   ** Nuxt.js dev-modules
