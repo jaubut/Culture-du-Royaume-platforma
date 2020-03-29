@@ -11,7 +11,7 @@
       </div>
       <div class="col-12 col-md-3 mb-4 mb-md-0">
         <h4 class="text-secondary">Cours en ligne</h4>
-        <div class="small">Des formations complètes seront <span class="text-secondary">bientôt</span> disponible pour vous.</div>
+        <div class="small">Des formations complètes seront <span class="text-secondary">bientôt</span> disponibles pour vous.</div>
       </div>
       <div class="col-12 col-md-3">
         <h4 class="text-secondary">Articles de blogue</h4>
