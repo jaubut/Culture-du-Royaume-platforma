@@ -3,17 +3,17 @@
     <div class="bg-cover chantal-cover text-white">
       <menu4></menu4>
       <culture1
-        tagline="Lettre de nouvelle"
+        tagline="Lettre de nouvelles"
         headline="Réjean Cloutier"
-        text="Rejoignez notre newsletter pour rester à jour sur les ressources et les évènements."
-        linkText="Gérer vos préférences."
-        cta="Let's Go !"
+        text="Inscrivez-vous à notre lettre de nouvelles pour rester à jour sur les ressources et les évènements."
+        linkText=""
+        cta="S’inscrire"
       ></culture1>
     </div>
     <center9
       logo="/logos/cr-logo-type.svg"
       header="La culture du Royaume"
-      text="Aider les gens à découvrir qui ils sont réellement en Dieu pour qu’ils puissent réaliser leur plein potentiel, relever des défis extraordinaires et changer leur génération."
+      text="Notre objectif est d’aider les gens à découvrir qui ils sont réellement en Dieu pour qu’ils puissent réaliser leur plein potentiel, relever des défis extraordinaires et changer leur génération."
     ></center9>
     <right16 id="apropos"
       image="/pictures/rejean-preche.jpg"
@@ -28,9 +28,9 @@
     <grids5></grids5>
     <center1
       tagline="Don"
-      headline="Supporter notre projet"
+      headline="Soutenir notre projet"
       link1="https://www.paypal.com/paypalme/rejtherhotmailcom"
-      linktitle="Me supporter via PayPal"
+      linktitle="Nous soutenir via PayPal"
     ></center1>
     <footers8></footers8>
   </div>
