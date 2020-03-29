@@ -75,6 +75,14 @@ export default {
     '@nuxtjs/dotenv',
     '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://cultureduroyaume.com',
+    gzip: true,
+    exclude: [
+    ],
+    routes: [
+    ]
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
