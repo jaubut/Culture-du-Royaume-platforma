@@ -73,8 +73,16 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    //'@/modules/static',
+    //'@/modules/crawler',
+    '@nuxtjs/prismic'
   ],
+  prismic: {
+    endpoint: 'https://cultureduroyaume.cdn.prismic.io/api/v2',
+    linkResolver: '@/plugins/link-resolver',
+    htmlSerializer: '@/plugins/html-serializer',
+  },
   sitemap: {
     hostname: 'https://cultureduroyaume.com',
     gzip: true,

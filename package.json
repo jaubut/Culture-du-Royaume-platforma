@@ -14,10 +14,14 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/prismic": "^1.1.1",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/sitemap": "^2.1.0",
     "contentful": "^7.14.0",
+    "contentful-rich-text-vue-renderer": "^1.1.5",
     "nuxt": "^2.11.0",
+    "prismic-javascript": "^2.7.1",
+    "prismic-vue": "^2.0.0",
     "vue-instagram": "^3.0.0"
   },
   "devDependencies": {

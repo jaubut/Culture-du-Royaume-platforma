@@ -3,27 +3,27 @@
     <div class="bg-cover chantal-cover text-white">
       <menu4></menu4>
       <culture1
-        tagline="Lettre de nouvelles"
-        headline="Réjean Cloutier"
-        text="Inscrivez-vous à notre lettre de nouvelles pour rester à jour sur les ressources et les évènements."
-        linkText=""
+        :tagline="index.fields.culture1.fields.tagline"
+        :headline="index.fields.culture1.fields.headline"
+        :text="index.fields.culture1.fields.text"
+        :linkText="index.fields.culture1.fields.link1"
         cta="S’inscrire"
       ></culture1>
     </div>
     <center9
-      logo="/logos/cr-logo-type.svg"
-      header="La culture du Royaume"
-      text="Notre objectif est d’aider les gens à découvrir qui ils sont réellement en Dieu pour qu’ils puissent réaliser leur plein potentiel, relever des défis extraordinaires et changer leur génération."
+      :logo="index.fields.center9.fields.logo.fields.file.url"
+      :header="index.fields.center9.fields.headline"
+      :text="index.fields.center9.fields.text1"
     ></center9>
     <right16 id="apropos"
-      image="/pictures/rejean-preche.jpg"
-      logo="/logos/cr-logo-type.svg"
-      headline="Ma biographie"
-      text="Je suis né au Québec. Je suis marié depuis plus de 40 ans et j'ai 3 enfants ainsi que 8 petits-enfants. J’ai fait mes études en musique et j’ai été professeur de guitare pendant de nombreuses années. Un jour, j’ai senti que Dieu m'appelait dans le ministère à temps plein. J’ai donc fait d'autres études, puis j'ai été ordonné pasteur par le MBC&S aux États-Unis. J’ai oeuvré à titre de pasteur pendant environ 20 ans et pendant cette période, j’ai découvert que j'aimais beaucoup enseigner les magnifiques vérités contenues dans la Parole de Dieu. En 2018, je me suis retiré du pastorat en raison d’un problème de santé. Mes 2 passions sont la musique et l’enseignement de la Bible."
+      :image="index.fields.right16.fields.image.fields.file.url"
+      :logo="index.fields.right16.fields.logo1.fields.file.url"
+      :headline="index.fields.right16.fields.headline"
+      :text="index.fields.right16.fields.richText1"
     ></right16>
     <texts2 id="ressource"
-      tagline="Ressources"
-      headline="Ta nouvelle identité en Dieu"
+      :tagline="index.fields.texte2.fields.tagline"
+      :headline="index.fields.texte2.fields.headline"
     ></texts2>
     <grids5></grids5>
     <center1
@@ -37,10 +37,41 @@
 </template>
 
 <script>
+import {createClient} from '~/plugins/contentful.js'
+
+const client = createClient()
 
 export default {
   name: 'page index',
   components: {
+  },
+  async asyncData({ $prismic, error }) {
+    try{
+      const homepageContent = (await $prismic.api.getSingle('accueil')).data
+      return {
+        homepageContent
+      }
+    } catch (e) {
+      error({ statusCode: 404, message: 'Page not found' })
+    }
+  },
+  asyncData ({env}) {
+    return Promise.all([
+      // fetch index page data
+      client.getEntries({
+        'content_type': env.CTF_INDEX_PAGE_TYPE_ID,
+      })
+    ]).then(([entries]) => {
+      // return data that should be available
+      // in the template
+      return {
+        index: entries.items[0]
+      }
+    }).catch(console.error)
+  },
+  data () {
+    return {
+    }
   }
 }
 </script>

@@ -100,7 +100,7 @@ export default async (ssrContext) => {
   /*
   ** Call global middleware (nuxt.config.js)
   */
-  let midd = []
+  let midd = ["prismic_preview"]
   midd = midd.map((name) => {
     if (typeof name === 'function') {
       return name

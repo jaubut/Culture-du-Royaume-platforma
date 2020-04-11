@@ -201,7 +201,7 @@ function resolveComponents (router) {
 }
 
 function callMiddleware (Components, context, layout) {
-  let midd = []
+  let midd = ["prismic_preview"]
   let unknownMiddleware = false
 
   // If layout is undefined, only call global middleware

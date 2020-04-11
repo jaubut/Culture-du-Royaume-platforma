@@ -11,9 +11,12 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_workbox_3a6f35cf from 'nuxt_plugin_workbox_3a6f35cf' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_nuxticons_2c147096 from 'nuxt_plugin_nuxticons_2c147096' // Source: ./nuxt-icons.js (mode: 'all')
-import nuxt_plugin_axios_a2a55d1a from 'nuxt_plugin_axios_a2a55d1a' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_workbox_baac9f22 from 'nuxt_plugin_workbox_baac9f22' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_nuxticons_1739c915 from 'nuxt_plugin_nuxticons_1739c915' // Source: ./nuxt-icons.js (mode: 'all')
+import nuxt_plugin_prismic_708823de from 'nuxt_plugin_prismic_708823de' // Source: ./prismic/plugins/prismic.js (mode: 'all')
+import nuxt_plugin_prismiccomponents_c672408c from 'nuxt_plugin_prismiccomponents_c672408c' // Source: ./prismic/plugins/prismic-components.js (mode: 'all')
+import nuxt_plugin_prismicpreview_5811db6a from 'nuxt_plugin_prismicpreview_5811db6a' // Source: ./prismic/middleware/prismic_preview.js (mode: 'all')
+import nuxt_plugin_axios_aaf417da from 'nuxt_plugin_axios_aaf417da' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_global_90a6a800 from 'nuxt_plugin_global_90a6a800' // Source: ../plugins/global.js (mode: 'all')
 import nuxt_plugin_vueinstagram_5bc1e040 from 'nuxt_plugin_vueinstagram_5bc1e040' // Source: ../plugins/vue-instagram.js (mode: 'all')
 
@@ -149,16 +152,28 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_workbox_3a6f35cf === 'function') {
-    await nuxt_plugin_workbox_3a6f35cf(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_baac9f22 === 'function') {
+    await nuxt_plugin_workbox_baac9f22(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxticons_2c147096 === 'function') {
-    await nuxt_plugin_nuxticons_2c147096(app.context, inject)
+  if (typeof nuxt_plugin_nuxticons_1739c915 === 'function') {
+    await nuxt_plugin_nuxticons_1739c915(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_a2a55d1a === 'function') {
-    await nuxt_plugin_axios_a2a55d1a(app.context, inject)
+  if (typeof nuxt_plugin_prismic_708823de === 'function') {
+    await nuxt_plugin_prismic_708823de(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_prismiccomponents_c672408c === 'function') {
+    await nuxt_plugin_prismiccomponents_c672408c(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_prismicpreview_5811db6a === 'function') {
+    await nuxt_plugin_prismicpreview_5811db6a(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_aaf417da === 'function') {
+    await nuxt_plugin_axios_aaf417da(app.context, inject)
   }
 
   if (typeof nuxt_plugin_global_90a6a800 === 'function') {
